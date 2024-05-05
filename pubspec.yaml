@@ -1,0 +1,45 @@
+name: homework_6
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+  http: ^1.2.1
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  flutter_dotenv: ^5.1.0
+  chopper: ^7.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  chopper_generator: ^7.4.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - .env
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/gilroy-medium.ttf
+        - asset: assets/fonts/gilroy-semibold.ttf
